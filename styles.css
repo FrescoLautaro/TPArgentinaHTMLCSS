@@ -6,14 +6,24 @@ h1{
 img{
     height: 100px;
     width: 100px;
-    border: solid black 25px;
+    border: solid black 20px;
 }
 
-th{
-    padding: 132px;
+
+
+table {
+    border-collapse: collapse; /* Esto elimina el espacio entre celdas y hace que los bordes se colapsen */
+    width: 100%; /* O el ancho que prefieras */
 }
 
- #check {
+
+
+
+tr{
+    margin-top: 100%;
+}
+
+#check {
     padding-left: 0%;
    
 }
