@@ -13,15 +13,6 @@ h1 {
     background-color: lightgray; /* Fondo gris para todo el encabezado */
 }
 
-h1::before,
-h1::after {
-    content: attr(data-text);
-    position: absolute;
-    top: 0;
-    left: 0;
-    color: rgba(0, 0, 0, 0.7);
-    z-index: -1;
-}
 
 /* Estilos para la tabla */
 table {
