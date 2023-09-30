@@ -10,94 +10,82 @@
 <body>
     <h1 id="argentina" data-text="ARGENTINA">ARGENTINA</h1>
     <div class="container">
-        <table>
-            <tr id="salta">
-                <th id="check">  <input type="checkbox" ></th>
-                <th id="nombre">SALTA</th>
-                <th id="imagen"><img src="Salta.jpg" alt=""></th>
-                <th id="descripcion"> 
-                    <ul>
-                        <li>1⁄2 pensión c/ aéreo </li> 
-                        <li>1⁄2 pensión c/ bus</li>
-                        <li>Desayuno s/ traslados</li>
-                    </ul>
-                </th>
-                <th class="checkDerecha"> 
-                    <div class="opcion">
-                        <input type="checkbox" >
-                        <input type="checkbox" > 
-                        <input type="checkbox" >
-                    </div>
-                </th>
-            </tr>
-            <tr id="mendoza">
-                <th id="check">  <input type="checkbox" ></th>
-                <th id="nombre">MENDOZA</th>
-                <th id="imagen"><img src="Mendoza.jfif" alt=""></th>
-                <th id="descripcion"> 
-                    <ul>
-                        <li>1⁄2 pensión c/ aéreo </li> 
-                        <li>1⁄2 pensión c/ bus</li>
-                        <li>Desayuno s/ traslados</li>
-                    </ul>
-                </th>
-                <th class="checkDerecha"> 
-                    <div class="opcion">
-                        <input type="checkbox" >
-                        <input type="checkbox" > 
-                        <input type="checkbox" >
-                    </div>
-                </th>
-            </tr>
-            <tr id="neuquen">
-                <th id="check">  <input type="checkbox" ></th>
-                <th id="nombre">NEUQUEN</th>
-                <th id="imagen"><img src="Neuquen.jfif" alt=""></th>
-                <th id="descripcion"> 
-                    <ul>
-                        <li>1⁄2 pensión c/ aéreo </li> 
-                        <li>1⁄2 pensión c/ bus</li>
-                        <li>Desayuno s/ traslados</li>
-                    </ul>
-                </th>
-                <th class="checkDerecha"> 
-                    <div class="opcion">
-                        <input type="checkbox" >
-                        <input type="checkbox" > 
-                        <input type="checkbox" >
-                    </div>
-                </th>
-            </tr>
-        </table>
-        <div id="formulario">
-        <br>
-        <FORM ACTION="mailto:dirección_de_email" METHOD="POST"
-            ENCTYPE="TEXT/PLAIN">
-            NOMBRE:
-            <INPUT TYPE="text"
-            NAME="nombre">
-            
-        </FORM>
-        <br>
-        <FORM ACTION="mailto:dirección_de_email" METHOD="POST"
-            ENCTYPE="TEXT/PLAIN">
-            APELLIDO:
-            <INPUT TYPE="text"
-            NAME="apellido">
-            
-        </FORM>
-        <br>
-        <FORM ACTION="mailto:dirección_de_email" METHOD="POST"
-            ENCTYPE="TEXT/PLAIN">
-            FORMA DE PAGO:
-            <INPUT TYPE="radio" NAME="opcion" VALUE="Efectivo" CHECKED>
-            Efectivo
-            <INPUT TYPE="radio" NAME="opcion" VALUE="Tarjeta"> Tarjeta
-        </FORM>
-        <br>
-        <P><INPUT TYPE="submit"
-            VALUE="Enviar">
-        </div>
+        <form action="fresco.lautaroet36@gmail.com" method="post" enctype="text/plain">
+            <table>
+                <tr id="salta">
+                    <th id="check">  <input type="checkbox" ></th>
+                    <th id="nombre">SALTA</th>
+                    <th id="imagen"><img src="Salta.jpg" alt=""></th>
+                    <th id="descripcion"> 
+                        <ul>
+                            <li>1⁄2 pensión c/ aéreo </li> 
+                            <li>1⁄2 pensión c/ bus</li>
+                            <li>Desayuno s/ traslados</li>
+                        </ul>
+                    </th>
+                    <th class="checkDerecha"> 
+                        <div class="opcion">
+                            <input type="checkbox" >
+                            <input type="checkbox" > 
+                            <input type="checkbox" >
+                        </div>
+                    </th>
+                </tr>
+                <tr id="mendoza">
+                    <th id="check">  <input type="checkbox" ></th>
+                    <th id="nombre">MENDOZA</th>
+                    <th id="imagen"><img src="Mendoza.jfif" alt=""></th>
+                    <th id="descripcion"> 
+                        <ul>
+                            <li>1⁄2 pensión c/ aéreo </li> 
+                            <li>1⁄2 pensión c/ bus</li>
+                            <li>Desayuno s/ traslados</li>
+                        </ul>
+                    </th>
+                    <th class="checkDerecha"> 
+                        <div class="opcion">
+                            <input type="checkbox" >
+                            <input type="checkbox" > 
+                            <input type="checkbox" >
+                        </div>
+                    </th>
+                </tr>
+                <tr id="neuquen">
+                    <th id="check">  <input type="checkbox" ></th>
+                    <th id="nombre">NEUQUEN</th>
+                    <th id="imagen"><img src="Neuquen.jfif" alt=""></th>
+                    <th id="descripcion"> 
+                        <ul>
+                            <li>1⁄2 pensión c/ aéreo </li> 
+                            <li>1⁄2 pensión c/ bus</li>
+                            <li>Desayuno s/ traslados</li>
+                        </ul>
+                    </th>
+                    <th class="checkDerecha"> 
+                        <div class="opcion">
+                            <input type="checkbox" >
+                            <input type="checkbox" > 
+                            <input type="checkbox" >
+                        </div>
+                    </th>
+                </tr>
+            </table>
+            <div id="formulario">
+                <br>
+                NOMBRE:
+                <input type="text" name="nombre">
+                <br>
+                APELLIDO:
+                <input type="text" name="apellido">
+                <br>
+                FORMA DE PAGO:
+                <input type="radio" name="opcion" value="Efectivo" checked>
+                Efectivo
+                <input type="radio" name="opcion" value="Tarjeta"> Tarjeta
+                <br>
+                <input type="submit" value="Enviar">
+            </div>
+        </form>
 
     </div>
 </body>
